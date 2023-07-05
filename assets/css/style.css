@@ -8,6 +8,11 @@ header {
 p {
     line-height: 1.6;
     margin: 0;
+    
+}
+#readmore {
+    text-align: justify;
+    line-height: 1.6;
 }
 
 img {
