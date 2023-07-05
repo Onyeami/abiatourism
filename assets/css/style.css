@@ -1,6 +1,6 @@
 ul {
     list-style-type: none;
-    margin-top: auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -8,9 +8,22 @@ li {
     display: inline;
 }
 
+nav {
+    text-align: center;
+    border-top: 3px solid black;
+    margin: 0px 20px 20px 20px;
+    padding-bottom: 20px;
+}
+
 .top {
     background-color: orange;
     height: 30px;
-    font-weight: bold;
+
 
 }
+
+#text-center {}
+
+#logo {}
+
+.text-center {}
