@@ -3,12 +3,20 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    height: 100px;
+    border: 2px solid brown;
+    font-size: larger;
+}
+h1 {
+    color: white;
+    text-align: center;
 }
 
 p {
     line-height: 1.6;
     margin: 0;
     text-align: justify;
+    background-color: rgb(235, 222, 222);
     
 }
 #readmore {
@@ -36,6 +44,10 @@ nav {
     border-top: 3px solid black;
     margin: 0px 20px 20px 20px;
     padding-bottom: 20px;
+    
+}
+a {
+    color: green;
 }
 
 .top {
@@ -97,4 +109,7 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
+}
+#footer {
+    color: black;
 }
