@@ -8,6 +8,7 @@ header {
 p {
     line-height: 1.6;
     margin: 0;
+    text-align: justify;
     
 }
 #readmore {
@@ -87,6 +88,7 @@ figure img {
 
 #attire-description {
     font-style: italic;
+    text-align: center;
 }
 
 footer {
