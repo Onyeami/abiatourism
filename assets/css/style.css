@@ -56,6 +56,23 @@ ul {
 li {
     display: inline;
 }
+img {
+    max-width: 90%;
+    height: auto;
+}
+strong {
+    font-style: italic;
+}
+.abia {
+    background-color: brown;
+    color: white;
+}
+#welcome {
+    text-align: center;
+}
+#ije {
+    font-size: 50px;
+}
 
 footer {
     background-color: #222;
