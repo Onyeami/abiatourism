@@ -7,103 +7,37 @@ header {
     border: 2px solid brown;
     font-size: larger;
 }
-h1 {
-    color: white;
-    text-align: center;
-}
-
-p {
-    line-height: 1.6;
-    margin: 0;
-    text-align: justify;
-    background-color: rgb(235, 222, 222);
-    
-}
 #readmore {
     text-align: justify;
     line-height: 1.6;
 }
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
-}
-
-nav {
-    text-align: center;
-    border-top: 3px solid black;
-    margin: 0px 20px 20px 20px;
-    padding-bottom: 20px;
-    
-}
-a {
-    color: green;
-}
-
-.top {
-    background-color: orange;
-    height: 30px;
-}
-
 body {
+    background-color: #333;
+    color: #f2f2f2;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-
-#text-center {
-    text-align: center;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #222;
+    color:#f2f2f2;
 }
-
-#logo img {
-    width: 200px;
-    height: 200px;
-    margin: 5px;
+.navbar-item {
+    text-decoration: none;
+    color: #f2f2f2;
+    margin-left: 20px;
+    padding: 10px;
+    background: #555;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0 0.3);
+    transition: all 0.3s ease;
 }
-
-#logo-description {
-    font-style: italic;
-    margin: 10px
-}
-
-.text-center {
-    text-align: center;
-    
-}
-
-.text-center span {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-section {
-    margin-top: 20px;
-    text-align: center;
-}
-
-figure {
-    margin: 0;
-}
-
-figure img {
-    width: 500px;
-    height: auto;
-    
-}
-
-#attire-description {
-    font-style: italic;
-    text-align: center;
+.navbar-item:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
 }
 
 footer {
