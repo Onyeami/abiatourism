@@ -90,10 +90,11 @@ h2, #welcome {
 #ije {
     font-size: 40px;
 }
+.article {
+    background-color: orange;
+}
 
 footer {
-    background-color: #222;
-    color: #f2f2f2;
     padding: 10px;
     text-align: center;
 }
