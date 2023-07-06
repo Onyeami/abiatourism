@@ -76,11 +76,15 @@ span {
     font-style: oblique;
     color: yellow;
 }
+ #state, #readmore {
+    text-align: justify;
+    line-height: 1.6;
+}
 .abia {
     background-color: brown;
     color: white;
 }
-#welcome {
+h2, #welcome {
     text-align: center;
 }
 #ije {
