@@ -62,6 +62,19 @@ img {
 }
 strong {
     font-style: italic;
+    font-size: 30px;
+}
+span {
+    font-weight: bold;
+    color: blue;
+}
+#onye {
+    font-size: 40px;
+}
+#permit {
+    font-size: 20px;
+    font-style: oblique;
+    color: yellow;
 }
 .abia {
     background-color: brown;
@@ -71,7 +84,7 @@ strong {
     text-align: center;
 }
 #ije {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 footer {
